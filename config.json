@@ -17,9 +17,8 @@
     "PASSWORD": "Faiza6233",
     "OTPKEY": "",
     "BOTNAME": "Rizwan ki gf ",
-    "PREFIX": "/",
-    "ADMINBOT": [
-        "10007828384173"
+    "PREFIX": "#",
+    "ADMINBOT": ["10007828384173"
     ],
     "NDH": [
         "100037743553265"
