@@ -20,8 +20,7 @@ react.includes("Rizwan")) {
 				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆★\n\n✦Rizwan✦\n\n★★᭄
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("📷", event.messageID, (err) => {}, true)
-		}
+    api.setMessageReaction("", event.messageID, (err) => {}, true)
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
