@@ -85,7 +85,7 @@ module.exports.handleEvent = async function ({ api, event, args, Threads, Users 
 
   if (event.body && (event.body.indexOf("Bot") === 0 || event.body.indexOf("bot") === 0)) {
     var msg = {
-      body: `🔶${name}🔶,\n\n『 ${rand} 』\n\n🎀❤️‍🩹CrEdiTs: <{OwNer Aman Khan}> 🖤 🐧`
+      body: `🔶${name}🔶,\n\n『 ${rand} 』\n\n🎀❤️‍🩹CrEdiTs: <{OwNer 𝑺𝒂𝒉𝒊𝒃𝒂 𝑺𝒌}> 🖤 🐧`
     };
     return api.sendMessage(msg, event.threadID, event.messageID);
   }
